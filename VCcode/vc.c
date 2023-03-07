@@ -571,7 +571,7 @@ int vc_rgb_to_gray(IVC* src, IVC* dst)
 	// Verificação de erros
 	if ((src->width <= 0) || (src->height <= 0) || (src->data == NULL)) return 0;
 	if ((src->width != dst->width) || (src->height != dst->height)) return 0;
-	if ((src->channels != 3) || (dst->channels)) return 0;
+	if ((src->channels != 3) || (dst->channels != 1)) return 0;
 	
 	for (y = 0; y < height; y++) {
 		for (x = 0; x < width; x++) {

@@ -33,14 +33,14 @@ int main(void)
         image->data [i] = 255 - image->data[i];
     }*/
 
-    vc_write_image("rgbtogray.pgm", image_dst); //SALVAR NA IMAGEM CRIADA PARA RGB TO GRAY
+    vc_write_image("C:\\Users\\allan\\Desktop\\projeto\\VisaoPorComputador\\Aulas\\VCcode\\VCcode\\rgbtogray22.pgm", image_dst); //SALVAR NA IMAGEM CRIADA PARA RGB TO GRAY
 
     //vc_rgb_get_blue_gray(image);
     //vc_rgb_get_green_gray(image);
     //vc_rgb_get_red_gray(image);
 
     system("cmd /c start C:\\Users\\allan\\Desktop\\projeto\\VisaoPorComputador\\Aulas\\VCcode\\VCcode\\FilterGear.exe C:\\Users\\allan\\Desktop\\projeto\\VisaoPorComputador\\aulas\\VCcode\\VCcode\\Images\\Additional\\fruits.ppm"); // Input
-    system("C:\\Users\\allan\\Desktop\\projeto\\VisaoPorComputador\\Aulas\\VCcode\\VCcode\\FilterGear.exe C:\\Users\\allan\\Desktop\\projeto\\VisaoPorComputador\\aulas\\VCcode\\VCcode\\Images\\Additional\\rgbtogray.pgm"); // Output
+    system("C:\\Users\\allan\\Desktop\\projeto\\VisaoPorComputador\\Aulas\\VCcode\\VCcode\\FilterGear.exe C:\\Users\\allan\\Desktop\\projeto\\VisaoPorComputador\\aulas\\VCcode\\VCcode\\rgbtogray22.pgm"); // Output
 
 
     vc_image_free(image_src);

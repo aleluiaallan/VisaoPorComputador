@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\allan\Desktop\projeto\VisaoPorComputador\aulas\VCcode\VCcode\main.c(42,5): warning C4013: 'system' indefinido; assumindo extern retornando int
+C:\Users\allan\Desktop\projeto\VisaoPorComputador\aulas\VCcode\VCcode\main.c(9,9): warning C4101: 'i': variável local não referenciada
+  VCcode.vcxproj -> C:\Users\allan\Desktop\projeto\VisaoPorComputador\aulas\VCcode\x64\Debug\VCcode.exe
